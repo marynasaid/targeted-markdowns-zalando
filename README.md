@@ -29,7 +29,7 @@
 - Discount levels are fixed (0–50% in steps of 10); intermediate levels cannot be tested.
 
 ## How this was built
-Method design, research questions and validation choices are my own. I used an AI assistant (Claude) to help write and refactor the code and documentation.
+Method design, research questions and validation choices are my own. I used an AI assistant (Claude) to help refactor the code.
 
 ## How to run
 ```
@@ -38,4 +38,4 @@ python forecast_and_effects.py   # effect accuracy vs forecasting models
 python discount_policy.py        # profit of each pricing strategy
 python stability_check.py 1      # rerun with random seed 1
 ```
-Code comments are partly in Russian.
+
